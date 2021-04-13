@@ -1,0 +1,33 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  background-color: #fae4ce;
+  color: white;
+}
+
+.header {
+  /* background-color: #fae4ce; */
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 4em;
+  font-weight: bold;
+  color: white;
+}
+
+.title {
+  text-align: left;
+  font-size: 3em;
+  /* text-shadow:; */
+}
+
+.background-image {
+  background-image: url("/pics/vscode.png");
+  height: 70vh;
+  max-width: 100%;
+  filter: drop-shadow(15px 15px 10px rgb(43, 43, 43));
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5%;
+}

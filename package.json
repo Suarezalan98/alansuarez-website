@@ -1,0 +1,24 @@
+{
+  "name": "as-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suarezalan98/alansuarez-website.git"
+  },
+  "author": "Alan Suarez <alan.andre.suarez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suarezalan98/alansuarez-website/issues"
+  },
+  "homepage": "https://github.com/Suarezalan98/alansuarez-website#readme",
+  "dependencies": {
+    "vercel": "^21.3.3",
+    "watch": "^1.0.2"
+  }
+}
