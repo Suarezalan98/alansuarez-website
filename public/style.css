@@ -14,20 +14,36 @@ body {
   color: white;
 }
 
+.hero-section {
+  margin: 5%;
+  margin-bottom: 10%;
+}
+
 .title {
-  text-align: left;
+  text-align: start;
   font-size: 3em;
-  /* text-shadow:; */
+  text-shadow: 5px 5px 3px #000c0f;
 }
 
 .background-image {
   background-image: url("/pics/vscode.png");
   height: 70vh;
   max-width: 100%;
-  filter: drop-shadow(15px 15px 10px rgb(43, 43, 43));
+  box-shadow: 10px 10px 3px #5c544b;
   /* background-attachment: fixed; */
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  /* margin: 5%; */
+}
+
+.about-me {
   margin: 5%;
+}
+
+.heading {
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 5px 5px 3px #5c544b;
 }
